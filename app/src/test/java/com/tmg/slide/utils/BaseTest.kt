@@ -1,12 +1,3 @@
-/*
- * //
- * // Description: IWoodTracking
- * //
- * // 4/15/2020
- * //
- * // Copyright (c) Rosoftlab Romania. All rights reserved.
- * //
- */
 package com.tmg.slide.utils
 
 import org.junit.Rule

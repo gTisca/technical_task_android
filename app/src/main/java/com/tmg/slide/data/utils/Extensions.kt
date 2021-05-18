@@ -38,4 +38,3 @@ fun <T> Single<T>.mapErrors(): Single<T> =
 
 fun <T : DomainMappable<R>, R> Single<T>.mapToDomain(): Single<R> = this.map { it.asDomain() }
 fun <T : DomainMappable<R>, R> Single<List<T>>.mapListToDomain(): Single<List<R>> = this.map { it.map { t -> t.asDomain() } }
-fun <T : DomainMappable<R>, R> List<T>.mapToDomain(): List<R> = this.map { t -> t.asDomain() }

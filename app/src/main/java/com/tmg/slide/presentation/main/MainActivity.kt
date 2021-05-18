@@ -67,7 +67,7 @@ class MainActivity : AbstractBaseActivityWithPresenter<MainActivityView, MainAct
     }
 
     override fun showAddDialog() {
-        val a = MaterialDialog(this).show {
+        MaterialDialog(this).show {
             title(R.string.dialog_add_title)
             customView(R.layout.add_user_dialog, scrollable = true, horizontalPadding = true)
             noAutoDismiss()

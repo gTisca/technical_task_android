@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SlideTest</string>
+
+    <string name="general_loading_text">Loading data…</string>
+    <string name="result_empty_list">No data was found</string>
+
+    <string name="dialog_title">Attention!</string>
+    <string name="dialog_delete_confirmation_msg">Are you sure you want to remove this user? \n%1$s</string>
+    <string name="dialog_delete_positive_btn">Yes</string>
+    <string name="dialog_delete_negative_btn">Cancel</string>
+    <string name="dialog_add_title">Add new user</string>
+    <string name="dialog_add_name_hint">Name</string>
+    <string name="dialog_add_email_hint">Email</string>
+    <string name="dialog_add_positive_btn">Add</string>
+    <string name="dialog_add_negative_btn">Cancel</string>
+    <string name="dialog_add_empty_name_error">Set a name</string>
+    <string name="dialog_add_empty_email_error">Set a valid email</string>
+    <string name="error_no_internet_connection_message">No internet connection available. Please check your connection and try again.</string>
+    <string name="error_server_not_reachable_message">Our service is currently not available. Please make sure that you are connected to internet and try again.</string>
+    <string name="error_delete_user">User could not be deleted, please verify if is still exist</string>
+    <string name="error_unknown_exception_message">Something went wrong but we are already working on a solution. Please retry later. </string>
+    <string name="error_dialog_ok_button">OK</string>
+</resources>
